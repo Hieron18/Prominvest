@@ -171,7 +171,7 @@ body {
 .header .header__link h3 {
   font-weight: 700;
   color: #133772;
-  font-style: italic;
+  text-transform: uppercase;
   font-size: 20px;
 }
 
@@ -189,7 +189,7 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-style: italic;
+  text-transform: uppercase;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -536,7 +536,7 @@ body {
 }
 
 .topic .topic__title {
-  padding: 10px 0px 0px 20px;
+  padding: 10px 0px 0px 10px;
   min-height: 65px;
   background-color: #133772;
 }
@@ -1301,7 +1301,7 @@ body {
   }
 
   .person .person__block {
-    padding: 15px 5px 15px 5px;
+    padding: 15px 5px 15px 10px;
   }
 
   .news .news__content {
@@ -1547,7 +1547,7 @@ body {
   }
 
   .header .header__content {
-    min-height: 100vh;
+    min-height: 620px;
     padding: 120px 0 0 0;
   }
 }
