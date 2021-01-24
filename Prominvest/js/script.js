@@ -23,7 +23,7 @@ var swiper = new Swiper('.swiper-containerperson_768', {
   },
 });
 var swiper = new Swiper('.swiper-containerperson_479', {
-  slidesPerView: 1.5,
+  slidesPerView: 1.2,
   spaceBetween: 20,
   navigation: {
     nextEl: '.swiper-button-next',
@@ -55,7 +55,7 @@ var swiper = new Swiper('.swiper-containerperson_479', {
    },
  });
  var swiper_2 = new Swiper('.swiper-container_2person_479', {
-  slidesPerView: 1.5,
+  slidesPerView: 1.2,
    spaceBetween: 20,
    navigation: {
      nextEl: '.swiper-button-next_2',
@@ -65,6 +65,9 @@ var swiper = new Swiper('.swiper-containerperson_479', {
  $(document).ready(function() {
     $('.header__burger').click(function(){
       $('.header__burger, body, .sidebar__content').toggleClass('burger');
+    })
+    $('.sidebar__button').click(function(){
+      $('.header__burger, body, .sidebar__content').removeClass('burger');
     })
  })
 //  $(document).ready(function() {

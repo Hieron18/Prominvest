@@ -45,7 +45,7 @@ body {
   width: 100%;
   min-height: 710px;
   padding: 40px 0px 0px 0px;
-  background: url(../img/back.webp) 80% 0% no-repeat;
+  background: url(../img/back.webp) 88% 0% no-repeat;
 }
 
 .header .header__hyper {
@@ -69,10 +69,10 @@ body {
 
 .header .header__time::after {
   content: '';
-  right: -16px;
+  right: -20px;
   background-color: #ff0318;
   position: absolute;
-  width: 31px;
+  width: 40px;
   height: 60px;
   -webkit-transform: skew(25deg);
       -ms-transform: skew(25deg);
@@ -410,6 +410,10 @@ body {
   max-width: 865px;
 }
 
+.popup .popup__menu {
+  margin: 0px 0px 0px 20px;
+}
+
 .popup .popup__body {
   min-height: 100%;
   display: -webkit-box;
@@ -536,13 +540,14 @@ body {
 }
 
 .topic .topic__title {
-  padding: 10px 0px 0px 10px;
+  padding: 10px 0px 0px 15px;
   min-height: 65px;
   background-color: #133772;
 }
 
 .topic .topic__text p {
   color: #fff;
+  white-space: pre-line;
   font-size: 14px;
   line-height: 20px;
 }
@@ -576,7 +581,7 @@ body {
 .person .swiper-container-rtl .swiper-button-next,
 .person .swiper-button-next_2,
 .person .swiper-button-prev_2 {
-  right: 50px !important;
+  right: 55px !important;
   left: unset;
 }
 
@@ -1056,7 +1061,13 @@ body {
   margin-right: 0px;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1440px) {
+  .header .header__content {
+    background: url(../img/back.webp) 137% -33% no-repeat;
+  }
+}
+
+@media screen and (max-width: 1280px) {
   .indent {
     margin: 0px;
   }
@@ -1100,7 +1111,7 @@ body {
   .header .header__content {
     min-height: 740px;
     padding: 80px 0 0 0;
-    background: url(../img/back.webp) 99% -33% no-repeat;
+    background: url(../img/back.webp) 122% -33% no-repeat;
   }
 
   .header .header__img img {
@@ -1237,7 +1248,8 @@ body {
     top: 15px;
   }
 
-  .topic__head .swiper-button-next_2 {
+  .topic__head .swiper-button-next_2,
+  .swiper-button-next {
     right: 10px !important;
   }
 
@@ -1301,7 +1313,7 @@ body {
   }
 
   .person .person__block {
-    padding: 15px 5px 15px 10px;
+    padding: 15px 5px 15px 15px;
   }
 
   .news .news__content {
@@ -1441,7 +1453,7 @@ body {
   }
 
   .topic .topic__parag {
-    padding: 15px 15px 15px 10px;
+    padding: 15px;
   }
 
   .swiper-containerperson_479,
@@ -1517,7 +1529,7 @@ body {
   }
 
   .program .program__block .program__info .program__page .program__text {
-    padding: 0px 24px 0px 15px;
+    padding: 0px 12px 0px 15px;
   }
 
   .program .program__subtext p {
@@ -1534,7 +1546,7 @@ body {
   }
 
   .wrapper {
-    padding: 0px 20px;
+    padding: 0px 10px;
   }
 
   .header__body {
