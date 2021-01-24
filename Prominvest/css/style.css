@@ -1549,6 +1549,11 @@ body {
     padding: 0px 20px;
   }
 
+  .topic .topic__content .wrapper,
+  .person .person__content .wrapper {
+    padding: 0px 0px 0px 20px;
+  }
+
   .header__body {
     padding: 0px 20px;
   }
