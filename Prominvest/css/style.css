@@ -1331,6 +1331,16 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .news .news__title h2 {
+    font-size: 16px;
+    line-height: 24px;
+    white-space: pre-line;
+  }
+
+  .news .news__title h2 br {
+    display: none;
+  }
+
   .popup .popup__content {
     min-width: 450px;
   }
@@ -1383,10 +1393,6 @@ body {
 
   .program .program__page {
     padding: 0px 0px 0px 15px;
-  }
-
-  .news {
-    display: none;
   }
 
   .footer .footer__content {
@@ -1453,6 +1459,10 @@ body {
 }
 
 @media screen and (max-width: 479px) {
+  .news .news__title h2 {
+    font-size: 12px;
+  }
+
   .popup .popup__content {
     min-width: unset;
   }
