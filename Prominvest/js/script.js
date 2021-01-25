@@ -120,17 +120,15 @@ var swiper = new Swiper('.swiper-containerperson_479', {
 // });
 // });
 
-const anchors = document.querySelectorAll('a[href*="#move"]');
+// const anchors = document.querySelectorAll('a[href*="#move"]');
 
-for (let anchor of anchors){
-  anchor.addEventListener("click", function(event) {
-    event.preventDefault();
-    const blockID = anchor.getAttribute('href')
-    document.querySelector('' + blockID).scrollIntoView({
-      behavior: "smooth",
-      block: "start"
-    })
-  })
-}
-
-var countDownDate =
+// for (let anchor of anchors){
+//   anchor.addEventListener("click", function(event) {
+//     event.preventDefault();
+//     const blockID = anchor.getAttribute('href')
+//     document.querySelector('' + blockID).scrollIntoView({
+//       behavior: "smooth",
+//       block: "start"
+//     })
+//   })
+// }
