@@ -63,12 +63,12 @@ var swiper = new Swiper('.swiper-containerperson_479', {
    },
  });
  $(document).ready(function() {
-  var anchors = document.querySelectorAll('a[href*="#move"]');
+  let anchors = document.querySelectorAll('a[href*="#move"]');
 
-  for (var anchor of anchors){
+  for (let anchor of anchors){
     anchor.addEventListener("click", function(event) {
       event.preventDefault();
-      var blockID = anchor.getAttribute('href')
+      let blockID = anchor.getAttribute('href')
       document.querySelector('' + blockID).scrollIntoView({
         behavior: "smooth",
         block: "start"
