@@ -87,6 +87,12 @@ function slowScroll (id) {
   return false;
 }
 
+$(function () {
+  if (navigator.userAgent.indexOf('Safari') != -1 && 
+      navigator.userAgent.indexOf('Chrome') == -1) {
+          $("body").addClass("safari");
+      }
+});
 
 
 var countDownDate = new Date("Apr 2, 2021 09:00:00").getTime();

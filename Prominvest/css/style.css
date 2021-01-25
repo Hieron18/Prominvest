@@ -36,6 +36,10 @@ body {
   display: none;
 }
 
+.safari .header .header__ending {
+  bottom: -90px;
+}
+
 .header .header__adaptive {
   display: none;
 }
@@ -406,8 +410,8 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #333333;
-  opacity: 0.9;
+  background-color: #000;
+  opacity: 0.8;
 }
 
 .popup .popup__content {
