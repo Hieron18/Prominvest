@@ -118,7 +118,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 2px;
-  width: 700px;
+  width: 525px;
   margin-right: 20px;
   height: 60px;
   -webkit-transform: skew(-25deg);
@@ -386,7 +386,7 @@ body {
   margin: 0px 10px 0px 0px;
 }
 
-.popup:target {
+.popup.open {
   opacity: 1;
   visibility: visible;
 }
