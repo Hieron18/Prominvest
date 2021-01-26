@@ -64,8 +64,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
   max-width: 50%;
+  position: absolute;
   overflow: hidden;
   right: 0;
   bottom: -35px;
@@ -104,6 +104,8 @@ body {
 }
 
 .header .header__data p {
+  padding: 0px 10px;
+  white-space: nowrap;
   -webkit-transform: skew(25deg);
       -ms-transform: skew(25deg);
           transform: skew(25deg);
@@ -119,7 +121,6 @@ body {
           align-items: center;
   border-radius: 2px;
   width: 525px;
-  margin-right: 20px;
   height: 60px;
   -webkit-transform: skew(-25deg);
       -ms-transform: skew(-25deg);
