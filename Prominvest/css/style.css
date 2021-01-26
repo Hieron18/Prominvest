@@ -65,7 +65,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  max-width: 100%;
+  max-width: 50%;
   overflow: hidden;
   right: 0;
   bottom: -35px;
@@ -1463,6 +1463,10 @@ body {
 }
 
 @media screen and (max-width: 479px) {
+  .header .header__ending {
+    max-width: 100%;
+  }
+
   .news .news__title h2 {
     font-size: 12px;
   }
